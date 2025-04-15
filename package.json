@@ -28,9 +28,9 @@
     "seed:run": "ts-node -r tsconfig-paths/register --project ./tsconfig.json ./node_modules/typeorm-seeding/dist/cli.js seed --root src/infrastructure/configs"
   },
   "dependencies": {
-    "@apollo/gateway": "^0.41.0",
+    "@apollo/gateway": "^2.10.1",
     "@badrap/result": "^0.2.8",
-    "@nestjs/common": "^7.0.0",
+    "@nestjs/common": "^11.0.16",
     "@nestjs/core": "^7.0.0",
     "@nestjs/cqrs": "^8.0.0",
     "@nestjs/graphql": "^9.0.4",
@@ -48,7 +48,7 @@
     "nanoid": "^3.1.25",
     "nest-event": "^1.0.8",
     "nestjs-console": "^7.0.0",
-    "npm": "^7.24.1",
+    "npm": "^11.3.0",
     "pg": "^8.5.1",
     "reflect-metadata": "^0.1.13",
     "rimraf": "^3.0.2",
